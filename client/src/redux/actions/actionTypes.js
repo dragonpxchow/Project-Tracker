@@ -1,0 +1,27 @@
+export const SIGNIN_SUCCESS = "SIGNIN_SUCCESS";
+export const SIGNIN_FAIL = "SIGNIN_FAIL";
+export const SIGNOUT_SUCCESS = "SIGNOUT_SUCCESS";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+export const USER_LOADING = "USER_LOADING";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const SET_ERRORS = "SET_ERRORS";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+// common for CRUD operation
+export const USER_PROFILE_LOADING = "USER_PROFILE_LOADING";
+export const USER_PROFILE_LOADED = "USER_PROFILE_LOADED";
+export const USER_PROFILE_ERROR = "USER_PROFILE_ERROR";
+export const USER_PROFILE_CREATED = "USER_PROFILE_CREATED";
+export const USER_PROFILE_UPDATED = "USER_PROFILE_UPDATED";
+export const USER_PROFILE_FAILED = "USER_PROFILE_FAILED";
+export const DATA_LOADING = "DATA_LOADING";
+export const DATA_LOADED = "DATA_LOADED";
+export const DATA_ERROR = "DATA_ERROR";
+export const CREATE = "CREATE";
+export const READ = "READ";
+export const UPDATE = "UPDATE";
+export const DELETE = "DELETE";
+export const ERROR = "ERROR";
