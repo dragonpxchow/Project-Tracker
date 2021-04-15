@@ -25,7 +25,7 @@ export const getUserProfile = async (req, res) => {
 };
 
 export const createUserProfile = async (req, res) => {
-  console.log("Creat userProfileController c>>>>>>", req.body);
+  //console.log("Creat userProfileController c>>>>>>", req.body);
   try {
     // validate data first
     const { error } = validateUserProfile(req.body);

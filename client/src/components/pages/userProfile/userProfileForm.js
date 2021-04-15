@@ -84,9 +84,11 @@ export const UserProfileForm = () => {
   }));
 
   useEffect(() => {
+    /*
     console.log(
       "userProfileForm useEffect dispatch to getUserProfile() ............"
     );
+    */
 
     if (isAuthenticated) dispatch(getUserProfile());
   }, [isAuthenticated, dispatch]);
