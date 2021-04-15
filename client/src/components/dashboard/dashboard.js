@@ -56,7 +56,10 @@ class Dashboard extends Component {
                 </Typography>
                 <Typography align="center">
                   You are logged into a MERN full-stack{" "}
-                  <span style={{ fontFamily: "monospace" }}>Friend</span> app 👏
+                  <span style={{ fontFamily: "monospace" }}>
+                    Projects Tracker
+                  </span>{" "}
+                  app 👏
                 </Typography>
                 <Typography variant="h6" align="center">
                   Please note that this app is under developing and constantly
